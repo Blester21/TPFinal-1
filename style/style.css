@@ -4,7 +4,7 @@
 body{
     display: flex;
     justify-content: center;
-    background-color: rgb(198, 160, 229);
+    background-color: rgb(30,2,53);
 }
 
 
@@ -16,12 +16,19 @@ body{
 }
 
 /* relacionado a fonts... */
-.roboto-bold{
+
+
+.roboto-nav{
     font-family: "Roboto", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-style: normal;
+    color: white;
+    text-decoration: none;
 }
 
+.roboto-nav:hover{
+    color:rgb(214,190,102);
+}
 
 
 /* estilizado del header */
