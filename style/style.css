@@ -1,23 +1,28 @@
+/* fuente classy */
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+/* fuente comun */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+html, body{
+    height: 100vh;
+}
 
 body{
     display: flex;
     justify-content: center;
+    /* align-items: center; */
     background-color: rgb(30,2,53);
-    height: 100vh;
 }
-
-
 
 *{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    height: 0;
 }
 
 /* relacionado a fonts... */
-
 
 .roboto-nav{
     font-family: "Roboto", sans-serif;
@@ -25,11 +30,66 @@ body{
     font-style: normal;
     color: white;
     text-decoration: none;
+    position: relative;  /*esto es para el underline */
+    margin: 20px;
+    transition: color 250ms, transform 250ms;
+
 }
 
+.classy{
+    font-family: "Agbalumo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* ESTILIZADO DEL HEADER Y NAV*/
+
+header{
+    padding: 20px;
+    width: 100%;   /*importante para que ocupe todo el ancho y distribuir el espacio... */
+}
+
+nav{
+    display: flex;
+    position: sticky;
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    padding-bottom: 10px;
+    align-items: center; 
+}
+
+h1 {
+    font-family: ;
+    color: rgb(214,190,102); /* Ajusta el color del h1 si es necesario */
+    margin: 0 20px; /* Ajusta el margen según sea necesario */
+}
+
+
+/* UNDERLINE */
 .roboto-nav:hover{
     color:rgb(214,190,102);
+    transform: scale(1.05);
+}
+
+.roboto-nav::after{    /*esto es un pseudo elemento after que se encarga del subrayado*/
+    content: "";
+    height: 2px;
+    width: 100%;
+    display: block;
+    background-color: rgb(214,190,102);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    opacity: 0;
+    transition: 250ms;
+    pointer-events: none;  /* ignora el underline mismo, el underline solo funciona en el hover */ 
+    border-radius: 2px;
+}
+
+.roboto-nav:hover::after{
+    color:rgb(214,190,102);
+    opacity: 1;
 }
 
 
-/* estilizado del header */
+
