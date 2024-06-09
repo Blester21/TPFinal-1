@@ -2,12 +2,26 @@
 
 
 body{
-    
+    display: flex;
+    justify-content: center;
     background-color: rgb(198, 160, 229);
 }
+
+
 
 *{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
+/* relacionado a fonts... */
+.roboto-bold{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+/* estilizado del header */
