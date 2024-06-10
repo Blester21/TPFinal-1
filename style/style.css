@@ -40,11 +40,9 @@ body{
     font-family: "Agbalumo", system-ui;
     font-weight: 400;
     font-style: normal;
-    color: rgb(214,190,102); /* Ajusta el color del h1 si es necesario */
-    margin: 0 20px; /* Ajusta el margen según sea necesario */
+    color: rgb(214,190,102); 
+    margin: 0 20px; 
 }
-
-
 
 
 /* ESTILIZADO DEL HEADER Y NAV*/
@@ -95,8 +93,8 @@ nav{
     justify-content: space-between;
     height: 300px;
     padding: 20px;
-    margin: 0-;
-    max-width: 100%; /* Limita el ancho máximo al 100% del contenedor padre */
+    margin-top: 50px; /* separacion del section con el header*/
+    max-width: 100%; 
 }
 
 
@@ -114,11 +112,15 @@ nav{
 .hero-white-text{
     color: white;
     line-height: 1.8;
+    margin-bottom: 17%;
 }
 
 .buttons{
     /* display: flex; */
-    margin-top: 17%;
+    /* margin-top: 15%; */
+    /* margin-left: 89%; */
+    /* margin-left: 0 */
+    margin: 0;
 }
 
 .hero-button{
@@ -127,8 +129,8 @@ nav{
     font-weight: 500;
     text-decoration: none;
     border: solid 3px rgb(214,190,102) ;
-    padding-top: 0;
-    padding: 11px;
+    /* padding-top: 0 */
+    padding: 9px;
     border-radius: 10px;
     transition: 250ms;
 }
@@ -140,13 +142,19 @@ nav{
 
 }
 
-
-
-
-/* Añade un margin-top al section para que esté debajo del header */
-section {
-    margin-top: 50px; /* Ajusta el valor según sea necesario */
+.icons{
+    display: flex;
+    margin-top: 50px;
+    color: rgb(217,193,103);
+    gap: 20px; /* espacio entre iconos*/
+    margin-left: 10px;
 }
+
+
+
+
+
+
 
 
 /* respecto al about */
