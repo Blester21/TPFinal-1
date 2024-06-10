@@ -23,7 +23,6 @@ body{
 }
 
 /* relacionado a fonts... */
-
 .roboto-nav{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -44,9 +43,7 @@ body{
     margin: 0 20px; 
 }
 
-
 /* ESTILIZADO DEL HEADER Y NAV*/
-
 header{
     width: 100%;   /*importante para que ocupe todo el ancho y distribuir el espacio... */
 }
@@ -97,7 +94,6 @@ nav{
     margin-bottom: 150px;
     max-width: 100%; 
 }
-
 
 .hero-presentation{
     color:rgb(214,190,102);
@@ -151,11 +147,7 @@ nav{
     margin-left: 10px;
 }
 
-
 /* respecto al about */
-
-
-
 .about {
     
     border: solid 1px red;
@@ -183,8 +175,6 @@ nav{
     color: rgb(214,190,102);
     font-weight: 500;
 }
-
-
 
 .about-white-text{
     color: white;
