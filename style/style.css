@@ -88,7 +88,7 @@ nav{
 /* RESPECTO AL HERO... */
 
 .hero {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     height: 300px;
@@ -151,12 +151,6 @@ nav{
 }
 
 
-
-
-
-
-
-
 /* respecto al about */
 
 .about-content {
@@ -168,14 +162,12 @@ nav{
 
 .about {
     display: flex;
-    /* justify-content: center; */
-    /* border: solid 10px blue; */
-    margin-top: 100px;
     background-color: rgb(40, 12, 63);
     height: 300px;
-    max-width: 100%;
+    max-width: 70%;
     border-radius: 20px;
     margin: 0 auto; /* Esto centra el contenedor .about */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0,);
 }
 
 .about-title{
@@ -189,4 +181,6 @@ nav{
 
 .about-white-text{
     color: white;
+    list-style-type: disc;
+    margin-left: 20px;
 }
