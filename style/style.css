@@ -112,9 +112,19 @@ nav{
     flex-direction: column;
 }
 
-.hero-text{
-    max-width: 50%;
+.hero-white-text{
+    color: white;
+    line-height: 1.8;
 }
+
+
+
+
+
+
+
+
+
 /* Añade un margin-top al section para que esté debajo del header */
 section {
     margin-top: 50px; /* Ajusta el valor según sea necesario */
@@ -149,9 +159,7 @@ section {
     font-weight: 500;
 }
 
-.hero-white-text{
-    color: white;
-}
+
 
 .about-white-text{
     color: white;
