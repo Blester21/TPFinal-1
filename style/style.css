@@ -10,7 +10,8 @@ html, body{
 
 body{
     /* display: flex; */
-    justify-content: center;
+    /* flex-direction: column; */
+    /* justify-content: center; */
     /* align-items: center; */
     background-color: rgb(30,2,53);
 }
@@ -184,7 +185,6 @@ nav{
 }
 
 .read-more{
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
     color: rgb(245, 230, 179);
@@ -194,4 +194,32 @@ nav{
 
 .read-more:hover{
     color: rgb(223, 191, 77);
+}
+
+/* respecto a skills */
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-title{
+    color:rgb(214,190,102);
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.skills-content{
+    display: flex;
+    justify-content: space-evenly; /* Distribucion equitativa... */
+    border: solid 1px red;
+    border-radius: 20px;
+    height: 300px;
+
+}
+
+.skills-item{
+    color: white;
+    border: 1px solid blue;
+    height: 100%;
+    
 }
