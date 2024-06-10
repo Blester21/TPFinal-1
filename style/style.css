@@ -148,6 +148,12 @@ nav{
     margin-left: 10px;
 }
 
+a {
+    color: inherit; /* Hereda el color del texto del padre */
+    text-decoration: none; /* Elimina la subrayado predeterminado */
+}
+
+
 /* respecto al about */
 .about {
     
@@ -160,6 +166,7 @@ nav{
     margin: 0 auto; /* esto centra el contenedor .about */
     padding-left: 50px;
     box-shadow: 0px 25px 30px -5px rgb(26,2,45); /* offsetX offsetY blurRadius spreadRadius color */
+    margin-bottom: 250px;
 }
 
 .about-content {
@@ -200,10 +207,12 @@ nav{
 .skills{
     display: flex;
     flex-direction: column;
+    height: 300px;
+    /* border: solid 20px pink; */
 }
 
 .skills-title{
-    color:rgb(214,190,102);
+    color:rgb(255, 255, 255);
     margin-bottom: 50px;
     font-weight: 500;
 }
@@ -211,15 +220,26 @@ nav{
 .skills-content{
     display: flex;
     justify-content: space-evenly; /* Distribucion equitativa... */
-    border: solid 1px red;
+    /* border: solid 15px red; */
     border-radius: 20px;
-    height: 300px;
+    height: 100%;
 
 }
 
 .skills-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
     color: white;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 100%;
-    
+    width: 100%;
+}
+
+.skills-item-title{
+    color:rgb(214,190,102);
+    margin-bottom: 35px;
+    font-weight: 500;
 }
