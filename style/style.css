@@ -94,6 +94,7 @@ nav{
     height: 300px;
     padding: 20px;
     margin-top: 50px; /* separacion del section con el header*/
+    margin-bottom: 150px;
     max-width: 100%; 
 }
 
@@ -153,27 +154,32 @@ nav{
 
 /* respecto al about */
 
-.about-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-}
+
 
 .about {
+    
+    border: solid 1px red;
     display: flex;
     background-color: rgb(40, 12, 63);
     height: 300px;
     max-width: 70%;
     border-radius: 20px;
     margin: 0 auto; /* esto centra el contenedor .about */
+    padding-left: 50px;
     box-shadow: 0px 25px 30px -5px rgb(26,2,45); /* offsetX offsetY blurRadius spreadRadius color */
 }
 
+.about-content {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 100%; /* que ocupe toda la altura disponible */
+}
 
 .about-title{
-    margin-top: 150px;
-    align-items: normal;
+    padding-top: 20px;
+    /* align-items: left; */
     color: rgb(214,190,102);
     font-weight: 500;
 }
@@ -184,4 +190,19 @@ nav{
     color: white;
     list-style-type: disc;
     margin-left: 20px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+
+.read-more{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(245, 230, 179);
+    text-decoration: none;
+    transition: color 250ms, transform 250ms;
+}
+
+.read-more:hover{
+    color: rgb(223, 191, 77);
 }
