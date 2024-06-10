@@ -150,7 +150,7 @@ nav{
 /* respecto al about */
 .about {
     
-    border: solid 1px red;
+    /* border: solid 1px red; */
     display: flex;
     background-color: rgb(40, 12, 63);
     height: 300px;
@@ -178,8 +178,7 @@ nav{
 
 .about-white-text{
     color: white;
-    list-style-type: disc;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-bottom: 50px;
     line-height: 1.5;
 }
