@@ -9,7 +9,7 @@ html, body{
 }
 
 body{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     /* align-items: center; */
     background-color: rgb(30,2,53);
@@ -40,13 +40,16 @@ body{
     font-family: "Agbalumo", system-ui;
     font-weight: 400;
     font-style: normal;
+    color: rgb(214,190,102); /* Ajusta el color del h1 si es necesario */
+    margin: 0 20px; /* Ajusta el margen según sea necesario */
 }
+
+
 
 
 /* ESTILIZADO DEL HEADER Y NAV*/
 
 header{
-    padding: 20px;
     width: 100%;   /*importante para que ocupe todo el ancho y distribuir el espacio... */
 }
 
@@ -57,13 +60,6 @@ nav{
     padding-bottom: 10px;
     align-items: center; 
 }
-
-h1 {
-    font-family: ;
-    color: rgb(214,190,102); /* Ajusta el color del h1 si es necesario */
-    margin: 0 20px; /* Ajusta el margen según sea necesario */
-}
-
 
 /* UNDERLINE */
 .roboto-nav:hover{
@@ -91,5 +87,63 @@ h1 {
     opacity: 1;
 }
 
+/* RESPECTO AL HERO... */
+
+.hero {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    padding: 20px;
+    max-width: 100%; /* Limita el ancho máximo al 100% del contenedor padre */
+}
 
 
+/* fonts */
+.hero-presentation{
+    color:rgb(214,190,102);
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.hero-element{
+    display: flex;
+}
+
+/* Añade un margin-top al section para que esté debajo del header */
+section {
+    margin-top: 50px; /* Ajusta el valor según sea necesario */
+}
+
+
+/* respecto al about */
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.about {
+    display: flex;
+    /* justify-content: center; */
+    /* border: solid 10px blue; */
+    margin-top: 100px;
+    background-color: rgb(40, 12, 63);
+    height: 300px;
+    max-width: 100%;
+    border-radius: 20px;
+    margin: 0 auto; /* Esto centra el contenedor .about */
+}
+
+.about-title{
+    margin-top: 150px;
+    align-items: normal;
+    color: rgb(214,190,102);
+    font-weight: 500;
+}
+
+.white-text{
+    color: white;
+}
