@@ -130,6 +130,14 @@ nav{
     padding-top: 0;
     padding: 11px;
     border-radius: 10px;
+    transition: 250ms;
+}
+
+.hero-button:hover{
+    color: rgb(30,2,53);
+    background-color: rgb(252,213,86);
+    border: solid 3px rgb(252,213,86);
+
 }
 
 
