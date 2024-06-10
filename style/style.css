@@ -100,7 +100,6 @@ nav{
 }
 
 
-/* fonts */
 .hero-presentation{
     color:rgb(214,190,102);
     margin-bottom: 50px;
@@ -117,16 +116,21 @@ nav{
     line-height: 1.8;
 }
 
-.hero-button{
-    display: inline-flex;
-    margin: 20px;
-    color:rgb(214,190,102);
-    text-decoration: none;
+.buttons{
+    /* display: flex; */
+    margin-top: 17%;
 }
 
-
-
-
+.hero-button{
+    margin: 8px;
+    color:rgb(214,190,102);
+    font-weight: 500;
+    text-decoration: none;
+    border: solid 3px rgb(214,190,102) ;
+    padding-top: 0;
+    padding: 11px;
+    border-radius: 10px;
+}
 
 
 
