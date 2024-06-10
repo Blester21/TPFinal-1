@@ -92,9 +92,10 @@ nav{
 .hero {
     border: 1px solid red;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 300px;
     padding: 20px;
+    margin: 0-;
     max-width: 100%; /* Limita el ancho máximo al 100% del contenedor padre */
 }
 
