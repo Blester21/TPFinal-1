@@ -38,7 +38,7 @@ body{
 
 .classy{
     font-family: "Agbalumo", system-ui;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     color: rgb(214,190,102); 
     margin: 0 20px; 
@@ -46,8 +46,20 @@ body{
 
 /* ESTILIZADO DEL HEADER Y NAV*/
 header{
-    width: 100%;   /*importante para que ocupe todo el ancho y distribuir el espacio... */
+    width: 70%;   /* Importante para que ocupe todo el ancho y distribuir el espacio */
+    position: fixed; /* Mantiene el header fijo en la parte superior */
+    top: 0;
+    height: 35px;
+    /* margin-left: 0px !important; */
+    /* margin-right: 0px !important; */
+    background-color: rgb(30,2,53); /* Establece el color de fondo */
+    padding: 10px 0; /* Añade un poco de espacio dentro del header */
 }
+
+body {
+    margin-top: 65px; /* Asegura que el contenido no quede oculto debajo del header */
+}
+
 
 nav{
     display: flex;
@@ -84,7 +96,6 @@ nav{
 }
 
 /* RESPECTO AL HERO... */
-
 .hero {
     /* border: 1px solid red; */
     display: flex;
@@ -153,7 +164,6 @@ a {
     text-decoration: none; /* Elimina la subrayado predeterminado */
 }
 
-
 /* respecto al about */
 .about {
     
@@ -212,6 +222,8 @@ a {
 }
 
 .skills-title{
+    font-size: 33px;
+    margin-left: 20px;
     color:rgb(255, 255, 255);
     margin-bottom: 50px;
     font-weight: 500;
@@ -242,4 +254,62 @@ a {
     color:rgb(214,190,102);
     margin-bottom: 35px;
     font-weight: 500;
+}
+
+/* respecto al contact me  */
+.contact{
+    margin-top: 100px;
+    height: 100%;
+    /* border: solid 1px rgb(172, 105, 238); */
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-title{
+    font-size: 33px;
+    margin-left: 20px;
+    color:rgb(255, 255, 255);
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.contact-content {
+    height: 40vh; 
+    /* border: 4px solid lightgreen; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-item-1 {
+    color: rgb(255, 255, 255);
+    /* border: 3px solid rgb(144, 238, 225); */
+    flex-grow: 2; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    margin-left: 0px;
+    height: 30vh; 
+}
+
+.contact-item-2 {
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(238, 144, 144);
+    flex-grow: 10; /* crece 3 partes */
+    height: 100%;
+}
+
+.icons-alt {
+    font-size: 1.9em;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin: 0; 
+}
+
+.first-item-content {
+    padding-left: 1.7em; 
+    margin-right: 2em;
+    width: 50%;  
 }

@@ -20,3 +20,8 @@
 
 
 #### Respecto a skills: 
+
+
+#### Respecto a contact:
+- El icono de mail es apenas diferente
+- El icono del segundo numero telefonico no lo encontré, lo reemplacé por un icono de contacto, lo interpreté como numero de trabajo.
