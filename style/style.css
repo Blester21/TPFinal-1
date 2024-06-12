@@ -23,6 +23,7 @@ body{
 .header-links{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
+    font-size: 18px;
     font-style: normal;
     color: white;
     text-decoration: none;
@@ -35,9 +36,10 @@ body{
 .classy{
     font-family: "Agbalumo", system-ui;
     font-weight: 500;
+    font-size: 40px;
     font-style: normal;
     color: rgb(214,190,102); 
-    margin: 0 20px; 
+    margin-top: 0; 
 }
 
 /* ESTILIZADO DEL HEADER Y NAV*/
@@ -94,14 +96,16 @@ nav{
     height: 50%;
     padding: 20px;
     margin-top: 50px; /* separacion del section con el header*/
-    margin-bottom: 150px;
+    /* margin-bottom: 80vh; */
     max-width: 100%; 
 }
 
 .hero-presentation{
     color:rgb(214,190,102);
     margin-bottom: 50px;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 7vh;
 }
 
 .hero-element-1{
@@ -152,10 +156,11 @@ nav{
 
 .icons{
     display: flex;
-    margin-top: 50px;
+    margin-top: 65px;
     color: rgb(217,193,103);
     gap: 20px; /* espacio entre iconos*/
     margin-left: 10px;
+    font-size: 30px;
 }
 
 a {
@@ -172,16 +177,16 @@ a {
     height: 300px;
     max-width: 70%;
     border-radius: 20px;
-    margin: 0 15vh; /* esto centra el contenedor .about */
+    /* margin: 0 15vh 15vh 15vh;  */
     padding-left: 50px;
     box-shadow: 0px 25px 30px -5px rgb(26,2,45); /* offsetX offsetY blurRadius spreadRadius color */
-    margin-bottom: 250px;
+
 }
 
 .about-content {
     display: flex;
     flex-direction: column;
-    height: 100%; /* que ocupe toda la altura disponible */
+    /* height: 100%; que ocupe toda la altura disponible */
     margin:0 15vh;
 }
 
@@ -215,24 +220,26 @@ a {
 .skills{
     display: flex;
     flex-direction: column;
-    height: 50%;
-    margin-bottom: 50vh;
+    justify-content: space-around;
+    height: 60%;
+    margin-bottom: 10vh; /* Reducir el margen inferior */
+    margin-top: 10vh; /* Reducir el margen superior */
 }
 
 .skills-title{
     font-size: 33px;
     margin-left: 20px;
     color:rgb(255, 255, 255);
-    margin-bottom: 50px;
+    margin-bottom: 20px; /* Reducir el margen inferior */
+    margin-top: 15vh;
     font-weight: 500;
 }
 
 .skills-content{
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-between; /* Ajustar el espacio entre los elementos */
     border-radius: 20px;
     height: 100%;
-
 }
 
 .skills-item{
@@ -243,14 +250,16 @@ a {
     flex-direction: column;
     color: white;
     height: 70%;
-    width: 100%;
+    width: 30%; /* Reducir el ancho para crear más espacio entre los elementos */
+    margin: 0 5px; /* Añadir un margen horizontal entre los elementos */
 }
 
 .skills-item-title{
     color:rgb(214,190,102);
-    margin-bottom: 35px;
+    margin-bottom: 20px; /* Reducir el margen inferior */
     font-weight: 500;
 }
+
 
 /* respecto al contact me  */
 .contact{
@@ -265,6 +274,7 @@ a {
     margin-left: 20px;
     color:rgb(255, 255, 255);
     margin-bottom: 50px;
+    margin-top: 50px;
     font-weight: 500;
 }
 
@@ -477,7 +487,8 @@ footer {
     /* border: solid 3px  hotpink; */
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 85%;
+    /* margin-top:; */
 }
 
 .projects-header{
@@ -486,6 +497,7 @@ footer {
     justify-content: space-between;
     /* border: solid 10px orange; */
     height: 10vh;
+    margin-top: 15vh;
 }
 
 .see-more{
@@ -559,6 +571,8 @@ footer {
     line-height: 1.8;
     margin-top: 3vh;
     margin-bottom: 9vh;
+    margin-left:  4vh;
+    margin-right: 4vh;
 }
 
 .project-button{
