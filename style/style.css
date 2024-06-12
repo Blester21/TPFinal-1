@@ -491,7 +491,7 @@ footer {
 
 /* respecto a projects */
 .projects{
-    border: solid 3px  hotpink;
+    /* border: solid 3px  hotpink; */
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -501,7 +501,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: solid 10px orange;
+    /* border: solid 10px orange; */
     height: 10vh;
 }
 
@@ -529,7 +529,7 @@ footer {
 .items {
     display: flex;
     justify-content: space-evenly;
-    border: solid 15px slateblue;
+    /* border: solid 15px slateblue; */
     height: 60vh;
     padding: 0 30px; 
     box-sizing: border-box; 
@@ -544,11 +544,21 @@ footer {
     background-color: rgb(55, 30, 75);
     border-radius: 15px;
     box-shadow: 0px 25px 30px -5px rgb(26, 2, 45); /* offsetX offsetY blurRadius */
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     box-sizing: border-box; 
+    overflow: hidden; /* Añadir esto para que las imágenes se recorten */
 }
+
+.project-images {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 3vh;
+    object-fit: cover; /* Asegura que la imagen cubra el área del contenedor */
+}
+
 
 .project-item-title {
     font-size: 28px;
@@ -562,15 +572,14 @@ footer {
 }
 
 .project-white-text{
+    text-align: center;
     color: white;
     line-height: 1.8;
-    margin-bottom: 10%;
+    margin-top: 3vh;
+    margin-bottom: 9vh;
 }
 
-.project-images{
-    height: auto;
-    
-}
+
 
 .project-button{
     /* margin: px; */
@@ -596,4 +605,8 @@ footer {
     border-color: rgb(252,213,86);
     border: solid 3px rgb(252,213,86);
 
+}
+
+h3{
+    ;
 }
