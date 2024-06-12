@@ -24,7 +24,7 @@ body{
 }
 
 /* relacionado a fonts... */
-.roboto-nav{
+.header-links{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -66,12 +66,12 @@ nav{
 }
 
 /* UNDERLINE */
-.roboto-nav:hover{
+.header-links:hover{
     color:rgb(214,190,102);
     transform: scale(1.05);
 }
 
-.roboto-nav::after{    /*esto es un pseudo elemento after que se encarga del subrayado*/
+.header-links::after{    /*esto es un pseudo elemento after que se encarga del subrayado*/
     content: "";
     height: 2px;
     width: 100%;
@@ -86,7 +86,7 @@ nav{
     border-radius: 2px;
 }
 
-.roboto-nav:hover::after{
+.header-links:hover::after{
     color:rgb(214,190,102);
     opacity: 1;
 }
@@ -229,7 +229,7 @@ a {
 
 .skills-content{
     display: flex;
-    justify-content: space-evenly; /* Distribucion equitativa... */
+    justify-content: space-evenly; 
     /* border: solid 15px red; */
     border-radius: 20px;
     height: 100%;
@@ -392,4 +392,91 @@ textarea{
 
 button{
     background-color: transparent;
+}
+
+/* respecto al footer */
+footer {
+    background-color: rgb(40, 12, 63);
+    display: flex;
+    height: 25%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+    padding: 20px;
+}
+
+.footer-classy{
+    margin-top: ;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+    width: 100%;
+    justify-content: space-around; /* Distribuye el espacio uniformemente */
+    height: 100%; /* Para asegurarse de que el espaciado vertical se distribuya a lo largo de todo el footer */
+}
+
+.footer-element {
+    text-align: center;
+}
+
+.footer-element div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten a la línea si es necesario */
+}
+
+.footer-element a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 250ms, transform 250ms;
+}
+
+.footer-icons {
+    font-size: 30px;
+}
+
+.footer-links{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+    position: relative;  /*esto es para el underline */
+    margin: 20px;
+    transition: color 250ms, transform 250ms;
+
+}
+
+/* UNDERLINE */
+.footer-links:hover{
+    color:rgb(214,190,102);
+    transform: scale(1.05);
+}
+
+.footer-links::after{    /*esto es un pseudo elemento after que se encarga del subrayado*/
+    content: "";
+    height: 2px;
+    width: 100%;
+    display: block;
+    background-color: rgb(214,190,102);
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    opacity: 0;
+    transition: 250ms;
+    pointer-events: none;  /* ignora el underline mismo, el underline solo funciona en el hover */ 
+    border-radius: 2px;
+}
+
+.footer-links:hover::after{
+    color:rgb(214,190,102);
+    opacity: 1;
+}
+
+.about-images{
+    height: 30%;
 }

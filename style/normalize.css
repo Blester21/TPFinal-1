@@ -22,8 +22,10 @@
   
   body {
     margin-top: 35px;
-    margin-left: 30vh;
-    margin-right: 30vh;
+    /* margin-left: 30vh; */
+    /* margin-right: 30vh; */
+    padding-left: 30vh;
+    padding-right: 30vh;
   }
   
   /**
