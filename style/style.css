@@ -48,7 +48,7 @@ body{
 header{
     width: 100%;   /* Importante para que ocupe todo el ancho y distribuir el espacio */
     height: 10vh;
-    background-color: rgb(30,2,53); 
+    background-color: #1e0235; 
     padding: 10px 0; /* añade un poco de espacio dentro del header */
 }
 
@@ -112,6 +112,16 @@ nav{
 .hero-element-1{
     display: flex;
     flex-direction: column;
+}
+
+.hero-element-2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.hero-picture{
+    height: 100%;
 }
 
 .hero-white-text{
@@ -498,8 +508,9 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border: solid 10px orange;
     /* align-items: center; */
-    /* height: 100%; */
+    height: 10vh;
     /* margin-top: 20vh; */
 }
 
@@ -524,7 +535,67 @@ footer {
     padding: 0;
 }
 
-.project-item{
-    color: rgb(55,30,75);
+.items {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 15px slateblue;
+    height: 50vh;
+    padding: 0 30px; /* Añade un pequeño padding lateral para que los elementos no toquen los bordes */
+    box-sizing: border-box; /* Incluye el borde y el padding en el cálculo del tamaño total */
+}
+
+.project-item {
+    display: flex;
+    color: rgb(255, 255, 255);
     height: 100%;
+    flex: 1;  /* Ajusta el tamaño para que cada item ocupe una parte igual */
+    margin: 0 10px;  /* Añade un pequeño margen entre los items */
+    background-color: rgb(55, 30, 75);
+    border-radius: 15px;
+    box-shadow: 0px 25px 30px -5px rgb(26, 2, 45); /* offsetX offsetY blurRadius */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box; /* Incluye el borde y el padding en el cálculo del tamaño total */
+}
+
+.project-item-title {
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+
+.project-white-text{
+    color: white;
+    line-height: 1.8;
+    margin-bottom: 10%;
+}
+
+.project-images{
+    height: auto;
+    
+}
+
+.project-button{
+    margin: 8px;
+    color:rgb(214,190,102);
+    font-weight: 500;
+    text-decoration: none;
+    border: solid 3px rgb(214,190,102) ;
+
+    /* padding-top: 0 */
+    padding: 10px;
+    border-radius: 10px;
+    transition: 250ms;
+}
+
+.project-button:hover{
+    color: rgb(30,2,53);
+    background-color: rgb(252,213,86);
+    border-color: rgb(252,213,86);
+    border: solid 3px rgb(252,213,86);
+
 }
