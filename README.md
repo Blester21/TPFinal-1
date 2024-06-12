@@ -32,7 +32,7 @@ Asegúrese de que el diseño sea único y no repetido entre los compañeros, y c
 - Al no saber como modelar en 3D, reemplacé el hero por mi imagen, pasada por Photoshop. 
 - El gradiente que se ve de fondo no pude hacer que quedara bien en las ocasiones que lo intenté, por lo que opté por no ponerlo.
 - Tuve muchisimos problemas al intentar colocar una imagen similar a la del hero en la sección de "about", se me rompía la estructura de la página web.
-- No pude hacer la página responsive por de tiempo.
+- No pude hacer la página responsive por cuestiones de tiempo.
 
 #### Respecto al header:
 - La fuente del diseño es en realidad **Araboto**, pero es de pago, por lo que usé __Roboto__
