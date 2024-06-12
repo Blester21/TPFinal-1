@@ -1,11 +1,12 @@
-# TPFinal-1
+# Trabajo Práctico Final #1 - Página tipo Portfolio 
 ## Trabajo practico final 1, curso fullstack - Pagina tipo Portfolio
 
 Este proyecto consta en la copia de una pagina web a nuestra eleccion, la cual debíamos sacar de Behance o Dribbble. El tipo de pagina que debíamos elegir era una "landing page", que se caracteriza por contener diferentes apartados, como Hero, About, Contact, Projects y Skills.Para llevar a cabo la tarea, teníamos que usar HTML y CSS.
--Portfolio elegido: https://www.behance.net/gallery/153932367/Portfolio-web-design?tracking_source=search_projects%7Cweb+portfolio&l=211
--Porfolio copiado: https://blester21.github.io/TPFinal-1/
 
-La consigna formal del trabajo es la siguiente:
+- Portfolio elegido: https://www.behance.net/gallery/153932367/Portfolio-web-design?tracking_source=search_projects%7Cweb+portfolio&l=211
+- Porfolio copiado: https://blester21.github.io/TPFinal-1/
+
+## La consigna formal del trabajo es la siguiente:
 
 Trabajo Práctico Final: Página Tipo Portfolio
 Descripción del Trabajo:
