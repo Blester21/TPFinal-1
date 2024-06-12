@@ -47,7 +47,7 @@ body{
 /* ESTILIZADO DEL HEADER Y NAV*/
 header{
     width: 100%;   /* Importante para que ocupe todo el ancho y distribuir el espacio */
-    height: 35px;
+    height: 10vh;
     background-color: rgb(30,2,53); 
     padding: 10px 0; /* añade un poco de espacio dentro del header */
 }
@@ -96,7 +96,7 @@ nav{
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
-    height: 300px;
+    height: 50%;
     padding: 20px;
     margin-top: 50px; /* separacion del section con el header*/
     margin-bottom: 150px;
@@ -171,7 +171,7 @@ a {
     height: 300px;
     max-width: 70%;
     border-radius: 20px;
-    margin: 0 auto; /* esto centra el contenedor .about */
+    margin: 0 15vh; /* esto centra el contenedor .about */
     padding-left: 50px;
     box-shadow: 0px 25px 30px -5px rgb(26,2,45); /* offsetX offsetY blurRadius spreadRadius color */
     margin-bottom: 250px;
@@ -183,6 +183,7 @@ a {
     /* justify-content: center; */
     /* align-items: center; */
     height: 100%; /* que ocupe toda la altura disponible */
+    margin:0 15vh;
 }
 
 .about-title{
@@ -215,8 +216,9 @@ a {
 .skills{
     display: flex;
     flex-direction: column;
-    height: 300px;
-    margin-bottom: 30vh;
+    height: 50%;
+    margin-bottom: 50vh;
+    
     /* border: solid 20px pink; */
 }
 
@@ -245,7 +247,7 @@ a {
     flex-direction: column;
     color: white;
     /* border: 1px solid blue; */
-    height: 100%;
+    height: 70%;
     width: 100%;
 }
 
@@ -258,7 +260,7 @@ a {
 /* respecto al contact me  */
 .contact{
     margin-top: 100px;
-    height: 100%;
+    height: 80%;
     /* border: solid 1px rgb(172, 105, 238); */
     display: flex;
     flex-direction: column;
@@ -403,6 +405,7 @@ footer {
     width: 100%;
     flex-direction: column;
     align-items: center; /* Centra el contenido horizontalmente */
+    /* margin-top: 0; */
     padding: 20px;
 }
 
@@ -478,15 +481,17 @@ footer {
     opacity: 1;
 }
 
-.about-images{
-    height: 30%;
+.skills-images{
+    height: 20%;
 }
 
 /* respecto a projects */
 .projects{
+    border: solid 3px  hotpink;
+    /* margin-top: 500px; */
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    height: 100%;
 }
 
 .projects-header{
@@ -494,7 +499,8 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     /* align-items: center; */
-    height: 100%;
+    /* height: 100%; */
+    /* margin-top: 20vh; */
 }
 
 .see-more{
@@ -510,4 +516,15 @@ footer {
     margin-bottom: 50px;
     font-weight: 500;
     margin-top: 0;
+}
+
+.main-content{
+    /* height: 100vh; */
+    margin: 0 15%;
+    padding: 0;
+}
+
+.project-item{
+    color: rgb(55,30,75);
+    height: 100%;
 }
