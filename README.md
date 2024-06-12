@@ -1,5 +1,28 @@
 # TPFinal-1
- Trabajo practico final 1, curso fullstack
+## Trabajo practico final 1, curso fullstack - Pagina tipo Portfolio
+
+Este proyecto consta en la copia de una pagina web a nuestra eleccion, la cual debíamos sacar de Behance o Dribbble. El tipo de pagina que debíamos elegir era una "landing page", que se caracteriza por contener diferentes apartados, como Hero, About, Contact, Projects y Skills.Para llevar a cabo la tarea, teníamos que usar HTML y CSS.
+-Portfolio elegido: https://www.behance.net/gallery/153932367/Portfolio-web-design?tracking_source=search_projects%7Cweb+portfolio&l=211
+-Porfolio copiado: https://blester21.github.io/TPFinal-1/
+
+La consigna formal del trabajo es la siguiente:
+
+Trabajo Práctico Final: Página Tipo Portfolio
+Descripción del Trabajo:
+Para este trabajo práctico final, cada alumno deberá crear una página web tipo portfolio. La inspiración debe buscarse en plataformas como Dribbble o Behance , y es fundamental que el diseño elegido sea único y no se repita entre los compañeros. La página debe replicar exactamente el diseño seleccionado, siendo 100% fiel al original.
+
+El desarrollo del portfolio debe realizarse utilizando HTML y CSS, asegurando que la página sea completamente responsive y se adapte adecuadamente a diferentes tamaños de pantalla (móvil, tablet, escritorio). Además, el proyecto debe gestionarse con Git, haciendo commits regulares que reflejen el progreso del trabajo.
+
+El código debe subirse a GitHub, acompañado de un archivo README que describa el proyecto. También se evaluará el perfil personal de GitHub de cada alumno, por lo que es importante mantenerlo actualizado y bien organizado.
+
+Fecha de Entrega: El trabajo debe ser entregado antes del 7 DE JUNIO  A LAS 9AM.
+
+Envío del Trabajo: Enviar el enlace al repositorio de GitHub al correo: jose.l.condori@gmaill.com.
+
+Notas Importantes:
+
+Asegúrese de que el diseño sea único y no repetido entre los compañeros, y cumpla con todos los requisitos técnicos especificados. La presentación y funcionalidad de la página serán criterios clave para la evaluación. La nota mínima para aprobar es 6. Se destacará el uso adecuado de Git y la calidad del perfil de GitHub de cada alumno.
+
 
 
 ## Cambios realizados
