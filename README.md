@@ -1,5 +1,4 @@
 # Trabajo Práctico Final #1 - Página tipo Portfolio 
-## Trabajo practico final 1, curso fullstack - Pagina tipo Portfolio
 
 Este proyecto consta en la copia de una pagina web a nuestra eleccion, la cual debíamos sacar de Behance o Dribbble. El tipo de pagina que debíamos elegir era una "landing page", que se caracteriza por contener diferentes apartados, como Hero, About, Contact, Projects y Skills.Para llevar a cabo la tarea, teníamos que usar HTML y CSS.
 
@@ -28,6 +27,13 @@ Asegúrese de que el diseño sea único y no repetido entre los compañeros, y c
 
 ## Cambios realizados
 
+#### Generales:
+- Al no tener experiencia laboral en el ámbito del curso, me pareció óptimo traducir los elementos encontrados en el modelo original.
+- Al no saber como modelar en 3D, reemplacé el hero por mi imagen, pasada por Photoshop. 
+- El gradiente que se ve de fondo no pude hacer que quedara bien en las ocasiones que lo intenté, por lo que opté por no ponerlo.
+- Tuve muchisimos problemas al intentar colocar una imagen similar a la del hero en la sección de "about", se me rompía la estructura de la página web.
+- No pude hacer la página responsive por de tiempo.
+
 #### Respecto al header:
 - La fuente del diseño es en realidad **Araboto**, pero es de pago, por lo que usé __Roboto__
 - Reemplazado "Works" por "Proyectos" en el nav del header
@@ -39,12 +45,6 @@ Asegúrese de que el diseño sea único y no repetido entre los compañeros, y c
 - Los iconos no son exactamente iguales, no encontré versiones similares gratuitas
 
 
-#### Respecto al about:
-
-
-#### Respecto a skills: 
-
-
 #### Respecto a contact:
 - El icono de mail es apenas diferente
-- El icono del segundo numero telefonico no lo encontré, lo reemplacé por un icono de contacto, lo interpreté como numero de trabajo.
+- El icono del segundo numero telefonico no lo encontré, lo reemplacé por un icono de contacto, lo interpreté como número de trabajo.
